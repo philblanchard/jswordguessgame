@@ -288,7 +288,7 @@ var wordGuessGame = {
     evaluateScore: function () {
         if (this.guessesLeft === 0) {
             this.losses++;
-            alert(this.thisRoundWord + 'was the word you were looking for')
+            alert(this.thisRoundWord + ' was the word you were looking for')
             alert('you lose');
             beginGame();
         } else if (this.correctGuess >= this.wordLength) {
