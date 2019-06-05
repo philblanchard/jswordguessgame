@@ -2,7 +2,7 @@
 
 ### Overview
 
-This game is fairly simplistic and often annoying. It will alert you a lot. There is a potential ~1000 words and I didn't add any clues.
+This game is fairly simplistic and often annoying. It will alert you a lot. There are a potential ~1000 words it chooses from and I didn't add any clues, because I don't really know what the words are.
 
 ### How to Play
 
