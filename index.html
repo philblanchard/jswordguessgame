@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .btn-group button {
+      background-color: #4CAF50; /* Green background */
+      border: 1px solid green; /* Green border */
+      color: white; /* White text */
+      padding: 10px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      float: left; /* Float the buttons side by side */
+    }
+    
+    .btn-group button:not(:last-child) {
+      border-right: none; /* Prevent double borders */
+    }
+    
+    /* Clear floats (clearfix hack) */
+    .btn-group:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* Add a background color on hover */
+    .btn-group button:hover {
+      background-color: #3e8e41;
+    }
+    </style>
+    <body>
+            
+            <button onclick='beginGame()' id="myBtn">Start / Restart</button>
+            <p>Score: <span id="scoreText"></span></p>
+            <p>Losses: <span id='lossesArea'></span></p>
+            <p>Guess This Word</p>
+            <p id="wordArea" style='border: #4CAF50 5px'></p>
+            <br>
+            <p>Letters You've Guessed: <span id="guessLetters"></span></p>
+            <p>Guesses Remaining: <span id='guessesLeft'></span></p>
+            <div class='btn-group'>
+                    <button onclick='letterPressed(this)' data='a'>A</button>
+                    <button onclick='letterPressed(this)' data='b'> B</button>
+                    <button onclick='letterPressed(this)' data='c'>C</button>
+                    <button onclick='letterPressed(this)' data='d'>D</button>
+                    <button onclick='letterPressed(this)' data='e'>E</button>
+                    <button onclick='letterPressed(this)' data='f'>F</button>
+                    <button onclick='letterPressed(this)' data='g'>G</button>
+                    <button onclick='letterPressed(this)' data='h'>H</button>
+                    <button onclick='letterPressed(this)' data='i'>I</button>
+                    <button onclick='letterPressed(this)' data='j'>J</button>
+                    <button onclick='letterPressed(this)' data='k'>K</button>
+                    <button onclick='letterPressed(this)' data='l'>L</button>
+                    <button onclick='letterPressed(this)' data='m'>M</button>
+                    <button onclick='letterPressed(this)' data='n'>N</button>
+                    <button onclick='letterPressed(this)' data='o'>O</button>
+                    <button onclick='letterPressed(this)' data='p'>P</button>
+                    <button onclick='letterPressed(this)' data='q'>Q</button>
+                    <button onclick='letterPressed(this)' data='r'>R</button>
+                    <button onclick='letterPressed(this)' data='s'>S</button>
+                    <button onclick='letterPressed(this)' data='t'>T</button>
+                    <button onclick='letterPressed(this)' data='u'>U</button>
+                    <button onclick='letterPressed(this)' data='v'>V</button>
+                    <button onclick='letterPressed(this)' data='w'>W</button>
+                    <button onclick='letterPressed(this)' data='x'>X</button>
+                    <button onclick='letterPressed(this)' data='y'>Y</button>
+                    <button onclick='letterPressed(this)' data='z'>Z</button>
+            </div>
+<h2>To Start: Click the Start/Restart Button<br>To Play: Click the green letters to guess the word. You have 5 incorrect guesses and no clues.<br> Good Luck</h2>
+
+
+
+
+
+
+
+
+</body>
+<script src='take1.js'></script>
+</html>
